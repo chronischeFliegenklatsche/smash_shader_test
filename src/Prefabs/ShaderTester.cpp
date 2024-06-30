@@ -3,6 +3,11 @@
 
 #include <smash.h>
 #include "../Shaders/RainbowMadness.cpp"
+#include "../Shaders/PurpleBubbles.cpp"
+#include "../Shaders/GlitchSky.cpp"
+#include "../Shaders/CosmicNebula.cpp"
+#include "../Shaders/RainbowRing.cpp"
+#include "../Shaders/Waterfall.cpp"
 
 class ShaderTester : public smash::GameObject {    
 

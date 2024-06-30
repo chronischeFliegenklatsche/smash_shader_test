@@ -4,7 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/smash/include"
+                "C:/smash/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src"
             ],
             "defines": [
                 "_DEBUG",

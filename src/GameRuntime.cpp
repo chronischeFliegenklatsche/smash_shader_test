@@ -62,7 +62,7 @@ GameRuntime::GameRuntime() : smash::Runtime() {
 
 
 #ifdef _WIN32
-    renderingAPI = std::make_shared<smash::Experimental_GlRgbMatrixAPI>(16);
+    renderingAPI = std::make_shared<smash::GLRenderingAPI>();
     
 #endif
     if (renderingAPI)
